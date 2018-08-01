@@ -1,0 +1,169 @@
+/* RESET STYLESHEET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END RESET STYLESHEET */
+
+body {
+  background-repeat: repeat-x;
+  background-size: 16.7%;
+  background-image: url(img/background1.jpg);
+  background-attachment: fixed;
+}
+
+header {
+  height: auto;
+  width: 100%;
+  display: inline-block;
+}
+
+.titlebox {
+  position: relative;
+  float: left;
+  padding: 3% 1% 1% 3%;
+  top: 0;
+  width: 16%;
+  box-sizing: border-box;
+}
+
+.titlebox h4 {
+  color: #000;
+  font-size: 14px;
+  font-family: Tahoma, Sans-Serif;
+  font-weight: bold;
+}
+
+.descriptionbox {
+  padding: 3% 1% 1% 1%;
+  position: relative;
+  float: right;
+  margin: 0 9%;
+  width: 55%;
+  box-sizing: border-box;
+}
+
+.descriptionbox h4{
+  padding-bottom: 3%;
+  color: #000;
+  text-align: left;
+  font-size: 14px;
+  font-family:  Tahoma, Sans-Serif;
+  line-height: 1.5em;
+  letter-spacing: .1em;
+}
+
+.descriptionbox a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.descriptionbox a:hover {
+  color: #B06B4C;
+}
+
+
+.showcase {
+  margin: 5% 0;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+
+.column .columnelement {
+  position: relative;
+  object-fit: contain;
+  margin: 1%;
+}
+
+.columnelement .screen {
+  width: 100%;
+  height: 56px;
+  padding: 3%;
+  box-sizing: border-box;
+  position: absolute;
+  background-color: #000;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.columnelement .imgtext{
+  position: absolute;
+  color: #fff;
+  font-family: arial;
+  font-size: 18px;
+  /*transform:*/
+}
+
+.columnelement .image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.columnelement:hover .screen{
+  opacity: 0.8;
+}
+
+.sidefixbutton {
+  border: 0;
+  background-color: #000;
+  text-align:center;
+  position: fixed;
+  height: 27%;
+  width: 4%;
+  right: 0;
+  top: 40%;
+}
+
+.sidefixbutton a {
+  color: white;
+  text-decoration: none;
+}

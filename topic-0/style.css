@@ -98,22 +98,23 @@ header, footer {
 }
 
 .main {
+	text-align: justify;
 	height: 200px;
 	padding: 1%;
 	margin: 3%;
-	position: relative;
+	/*position: relative;*/
 	box-sizing: border-box;
+	/*border: solid red 1px;*/
 }
 
 .content {
 	float: left;
 	width: 58%;
-  font-size: 14px;
   background-color: #6c6c60;
   margin: 0 1%;
-  padding: 5% 1% 1% 1%;
+  padding: 4% 1% 1% 1%;
 	box-sizing: border-box;
-	position: relative;
+	/*position: relative;*/
 	border-radius: 10px;
 }
 
@@ -122,22 +123,18 @@ header, footer {
   font-size: 12px;
   margin: 0;
   width: 20%;
-	box-sizing: border-box;
-	position: relative;
 }
 
 .sidebar {
 	float: right;
   margin: 0;
   width: 20%;
-	box-sizing: border-box;
-	position: relative;
 	text-align: center;
 }
 
 .sidebar .sidebartext {
 	padding: 10%;
-	text-align: justify;
+	/*text-align: justify;*/
 	word-spacing: 2px;
 	line-height: 1.5em;
 	font-size: 12px;
@@ -145,6 +142,7 @@ header, footer {
 
 .content, .navigation, .sidebar{
 	height: 100%;
+	/*display: inline-block;*/
 }
 
 .navigation ul {
@@ -183,6 +181,7 @@ header, footer {
 */
 
 .sectionHeader, .sectionFooter, .article {
+	font-size: 14px;
   width: auto;
   height: auto;
   background-color: #b7b7ae;
