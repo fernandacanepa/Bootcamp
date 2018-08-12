@@ -153,7 +153,7 @@ header {
 }
 
 .sidefixbutton {
-  border: 0;
+  border: solid #0f0f0f 1px;
   background-color: #000;
   text-align:center;
   position: fixed;
